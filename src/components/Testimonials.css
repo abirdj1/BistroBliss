@@ -1,0 +1,144 @@
+/* --- Overall Section and Grid --- */
+.testimonials-section {
+  padding: 80px 40px;
+  background-color: #fdfdfd; /* Light background for elegance */
+  text-align: center;
+}
+
+.testimonials-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  color: #222;
+  margin-bottom: 60px;
+  font-weight: 700;
+  letter-spacing: 0.5px; /* Subtle letter spacing for elegance */
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1200px; /* Slightly wider for better spacing */
+  margin: 0 auto;
+}
+
+/* --- Testimonial Card Styling --- */
+.testimonial-card {
+  background-color:  #F9F9F7;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); /* Softer shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-8px); /* Slightly more pronounced lift */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Stronger shadow on hover */
+}
+
+/* Review Title */
+.testimonial-review-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #b22222; /* Slightly darker red for better contrast */
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Main Review Text */
+.testimonial-text {
+  font-family: 'Open Sans', sans-serif; /* Clean, modern font for body text */
+  font-size: 16px;
+  color: #4a4a4a; /* Darker gray for readability */
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+/* Container for Avatar and Name/Location */
+.testimonial-author-info {
+  display: flex;
+  align-items: center;
+}
+
+/* Avatar Image */
+.testimonial-avatar {
+  width: 60px; /* Slightly larger for visibility */
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  border: 2px solid #f0f0f0; /* Subtle border for polish */
+}
+
+/* Container for Name and Location */
+.author-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+/* Reviewer Name */
+.testimonial-name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Reviewer Location */
+.testimonial-location {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .testimonials-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .testimonial-card {
+    padding: 30px;
+  }
+
+  .testimonial-review-title {
+    font-size: 22px;
+  }
+
+  .testimonial-text {
+    font-size: 15px;
+  }
+
+  .testimonial-avatar {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonials-section {
+    padding: 50px 20px;
+  }
+
+  .testimonials-title {
+    font-size: 30px;
+  }
+
+  .testimonial-card {
+    padding: 25px;
+  }
+
+  .testimonial-avatar {
+    width: 45px;
+    height: 45px;
+  }
+}

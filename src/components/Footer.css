@@ -1,0 +1,208 @@
+.footer {
+  background-color: #2c2c2c; /* Darker background color as per image */
+  color: #fff;
+  padding: 80px 40px 30px; /* Adjusted padding top/bottom */
+  font-family: Arial, sans-serif; /* A more common sans-serif for general text */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Distributes columns evenly */
+  flex-wrap: wrap;
+  gap: 30px; /* Space between columns */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Base style for all columns */
+.footer-col {
+  flex: 1; /* Allows columns to grow and shrink */
+  min-width: 220px; /* Minimum width to prevent squishing */
+}
+
+/* Column 1: Logo, Description & Socials */
+.footer-col-logo {
+  flex: 1.5; /* Give logo column more space if needed, or keep flex: 1 */
+  min-width: 280px; /* Ensures logo column has enough space */
+}
+
+.footer-logo-wrapper {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  margin-bottom: 20px; /* Space below logo */
+}
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: auto; /* Maintient la largeur proportionnelle */
+  height: 50px; /* Définissez une hauteur fixe pour contrôler la taille */
+  object-fit: contain; /* Assure que l'image respecte ses proportions */
+}
+
+.footer-description {
+  font-size: 15px; /* Slightly larger description text */
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 30px; /* Space before social icons */
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px; /* Space between social icons */
+}
+
+.footer-socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; /* Size of the circular buttons */
+  height: 40px; /* Size of the circular buttons */
+  border-radius: 50%; /* Makes them circular */
+  background-color: #962d35; /* Darker background for social buttons */
+  color: #fff;
+  font-size: 18px; /* Icon size */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  background-color: #d32f2f; /* Red hover effect */
+  color: #fff;
+}
+
+/* Headers for all link columns */
+.footer-col h4 {
+  font-size: 18px; /* Larger heading size for columns */
+  color: #fff;
+  margin-bottom: 25px; /* More space below headings */
+  font-weight: 600; /* Semi-bold */
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col li {
+  margin-bottom: 12px; /* Space between list items */
+}
+
+.footer-col a {
+  color: #ccc; /* Lighter color for links */
+  text-decoration: none;
+  font-size: 15px; /* Consistent link font size */
+  transition: color 0.3s ease;
+}
+
+.footer-col a:hover {
+  color: #d32f2f; /* Red hover for links */
+}
+
+/* Column 4: Instagram Grid */
+.footer-col-instagram .instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns, 2 rows */
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px; /* Space between Instagram images */
+}
+
+.footer-col-instagram img {
+  width: 100%;
+  height: 100px; /* Fixed height for consistent grid items */
+  object-fit: cover; /* Cover the area, cropping if necessary */
+  border-radius: 8px; /* Slightly rounded corners for images */
+  display: block; /* Remove extra space below images */
+}
+
+/* Copyright Section */
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444; /* Darker border line */
+  margin-top: 60px; /* More space above the copyright line */
+  padding-top: 30px; /* More padding above copyright text */
+  font-size: 14px; /* Slightly larger copyright text */
+  color: #aaa; /* Slightly lighter copyright text */
+}
+
+.footer-bottom p {
+    margin: 0; /* Remove default paragraph margin */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    justify-content: center; /* Center columns */
+  }
+
+  .footer-col {
+    min-width: unset; /* Remove min-width to let grid handle sizing */
+    flex: unset;
+  }
+
+  .footer-col-logo {
+    flex-basis: 100%; /* Logo column takes full width */
+    text-align: center;
+  }
+  .footer-logo-wrapper {
+    justify-content: center; /* Center logo elements */
+  }
+  .footer-socials {
+    justify-content: center; /* Center social icons */
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Stack all columns vertically on small screens */
+    align-items: center; /* Center items when stacked */
+  }
+
+  .footer-col {
+    width: 100%; /* Full width for stacked columns */
+    text-align: center;
+  }
+
+  .footer-col h4 {
+    margin-top: 30px; /* Space between stacked headings */
+  }
+
+  .footer-col ul {
+    width: fit-content; /* Ensure list content doesn't stretch */
+    margin: 0 auto; /* Center the list items */
+  }
+
+  .footer-logo-wrapper {
+    margin-top: 0; /* Adjust margin for top column */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 40px 20px 20px; /* Reduce overall padding on very small screens */
+  }
+  .logo-text {
+    font-size: 24px;
+  }
+  .logo-icon {
+    font-size: 30px;
+  }
+  .footer-description {
+    font-size: 14px;
+  }
+  .footer-col h4 {
+    font-size: 16px;
+  }
+  .footer-col a {
+    font-size: 14px;
+  }
+  .footer-col-instagram img {
+    height: 80px; /* Smaller images on very small screens */
+  }
+}

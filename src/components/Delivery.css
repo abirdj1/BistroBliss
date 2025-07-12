@@ -1,0 +1,153 @@
+\.delivery-section {
+    padding: 80px 40px;
+    background-color: #F9F9F7;
+}
+
+.delivery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Images Section Styling */
+.delivery-images {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex: 1;
+    min-width: 380px;
+}
+
+.main-image-wrapper {
+    flex-shrink: 0;
+}
+
+.main-chef-image {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.small-images-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.small-delivery-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Text Content Styling */
+.delivery-text {
+    flex: 1;
+    min-width: 300px;
+    padding-left: 20px;
+}
+
+.delivery-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #222;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.delivery-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.delivery-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.delivery-features li {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    /* Optional: Added for subtle boldness to text, matching image */
+    font-weight: 500;
+}
+
+/* New style for the Font Awesome icons */
+.delivery-features li .feature-icon {
+    margin-right: 10px;
+    font-size: 20px; /* Adjust size as needed */
+    color: #c0392b; /* Red color matching the image */
+    /* You might want to adjust vertical alignment if needed */
+    vertical-align: middle;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .delivery-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .delivery-images {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .main-chef-image {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .small-images-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .small-delivery-image {
+        width: 45%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .delivery-text {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .delivery-section {
+        padding: 50px 20px;
+    }
+
+    .delivery-text h2 {
+        font-size: 32px;
+    }
+
+    .small-images-wrapper {
+        flex-direction: column;
+    }
+
+    .small-delivery-image {
+        width: 100%;
+        max-width: 250px;
+    }
+}

@@ -1,0 +1,132 @@
+/* General container and section styling */
+.services-section {
+  background-color: #fff;
+  padding: 80px 40px; /* Increased left/right padding */
+  text-align: left; /* Align text content within the section to the left */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.services-title {
+  font-size: 38px;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  margin-bottom: 60px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: left; /* Ensure the title itself is left-aligned */
+  max-width: 1200px; /* Match max-width of the grid for alignment */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+/* Grid for the service cards */
+.services-grid {
+  display: flex; /* Use flexbox for strict single-line */
+  flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+  gap: 30px;
+  max-width: 1200px; /* Keep this to align with the title */
+  margin: 0 auto;
+
+  /* REMOVED: Horizontal scrolling properties */
+  /* overflow-x: auto; */
+  /* -webkit-overflow-scrolling: touch; */
+  /* padding-bottom: 10px; */
+}
+
+/* Individual service card styling */
+.service-card {
+  flex-shrink: 0; /* Prevents cards from shrinking */
+  width: 280px; /* Set a fixed width for cards to maintain size */
+  background-color: #ffffff;
+  border-radius: 10px;
+ /* Lighter, more subtle shadow */
+  overflow: hidden; /* Ensures the image respects the border-radius of the card */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  cursor: default; /* Ensure cursor is default (arrow), not text-selection or pointer */
+
+  border: none; /* Explicitly remove any default border */
+  outline: none; /* Remove outline that appears on focus */
+}
+
+/* Image wrapper and image styling */
+.service-image-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.service-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Content area within the card */
+.service-content {
+  padding: 18px 22px;
+}
+
+.service-card-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.service-card-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .services-title {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+    .services-grid {
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* No overflow-x: auto here, so it will overflow visually */
+    }
+}
+
+@media (max-width: 768px) {
+  .services-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-section {
+    padding: 50px 15px;
+  }
+
+  .services-title {
+    font-size: 28px;
+  }
+
+  .service-image-wrapper {
+    height: 180px;
+  }
+}

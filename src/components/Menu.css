@@ -1,0 +1,71 @@
+
+.menu-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.menu-title {
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Fixed 4 columns as in the image */
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu-card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #eee; /* Light gray border as in the image */
+  border-radius: 8px; /* Rounded corners */
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow effect */
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-icon {
+  font-size: 40px;
+  color: #666;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.menu-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.menu-link {
+  color: #c0392b; /* Red color as in the image */
+  text-decoration: none; /* Remove underline */
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+  color: #a93226; /* Darker red on hover */
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');

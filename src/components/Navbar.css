@@ -1,0 +1,70 @@
+.navbar {
+  background-color: #fff;
+  padding: 16px 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: auto; /* Maintient la largeur proportionnelle */
+  height: 32px; /* Définissez une hauteur fixe pour contrôler la taille */
+  object-fit: contain; /* Assure que l'image respecte ses proportions */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background-color: #f0f0f0;
+}
+
+.nav-links li a.active {
+  background-color: #e6f1dc;
+  color: #222;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.book-button {
+  border: 2px solid #333;
+  background-color: white;
+  color: #222;
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.book-button:hover {
+  background-color:  #AD343E; /* Rouge vif */
+  color: white;
+  border-color: #962d35;
+}
