@@ -1,7 +1,7 @@
 import React from 'react';
 import './Delivery.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock, faTags, faGlobe } from '@fortawesome/free-solid-svg-icons'; // Or faHouse if globe isn't suitable
+import { faClock, faTags, faGlobe } from '@fortawesome/free-solid-svg-icons'; 
 
 const Delivery = () => {
   return (

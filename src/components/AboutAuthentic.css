@@ -1,0 +1,212 @@
+/* ==========  GLOBAL RESET  ========== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==========  SECTION WRAPPER  ========== */
+.about-authentic {
+  font-family: "Poppins", sans-serif;
+  max-width: 1600px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+/* ==========  WELCOME SECTION  ========== */
+.welcome-section {
+  position: relative;
+  min-height: 500px;
+  background: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);
+  z-index: 1;
+}
+
+.welcome-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.welcome-title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.15;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  letter-spacing: -0.5px;
+  font-family: 'Playfair Display', serif;
+}
+
+.play-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff; /* White background as per image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.play-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-left: 12px solid #962d35;; /* Red triangle as per image */
+  border-bottom: 7px solid transparent;
+  margin-left: 2px;
+}
+
+/* ==========  FEATURES SECTION  ========== */
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 40px 20px;
+  background: #fff;
+}
+
+.feature-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+  padding: 10px;
+}
+
+.icon-box {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #962d35; /* Changed to #962d35 */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.icon-box .icon {
+  font-size: 16px;
+  color: #962d35; /* Changed to #962d35 */
+}
+
+.feature-item h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.feature-item p {
+  font-size: 0.75rem;
+  line-height: 1.3;
+  color: #666;
+  text-align: center;
+}
+
+/* ==========  RESPONSIVE  ========== */
+@media (max-width: 992px) {
+  .features-section {
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px 10px;
+  }
+  .feature-item {
+    flex-basis: calc(50% - 15px);
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-section {
+    min-height: 400px;
+  }
+  .welcome-title {
+    font-size: 2.5rem;
+  }
+  .play-button {
+    width: 50px;
+    height: 50px;
+  }
+  .play-icon {
+    width: 18px;
+    height: 18px;
+  }
+  .triangle {
+    border-left-width: 10px;
+    border-top-width: 6px;
+    border-bottom-width: 6px;
+  }
+  .features-section {
+    padding: 20px 10px;
+    gap: 20px;
+  }
+  .feature-item {
+    flex-basis: 100%;
+  }
+  .feature-item h3 {
+    font-size: 1rem;
+  }
+  .feature-item p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-title {
+    font-size: 2rem;
+  }
+  .play-button {
+    width: 45px;
+    height: 45px;
+  }
+  .play-icon {
+    width: 15px;
+    height: 15px;
+  }
+  .triangle {
+    border-left-width: 8px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+  }
+  .icon-box {
+    width: 35px;
+    height: 35px;
+  }
+  .icon-box .icon {
+    font-size: 14px;
+  }
+}

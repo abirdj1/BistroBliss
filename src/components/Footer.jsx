@@ -1,9 +1,6 @@
 import React from 'react';
 import './Footer.css';
-// The image doesn't explicitly show specific social icons,
-// but if you want to keep them, ensure react-icons/fa is installed.
-// For the exact image, we'll use simple text links for now,
-// or you can add image icons if you have them.
+
 import { FaTwitter, FaFacebookF, FaInstagram, FaGithub } from 'react-icons/fa'; // Keeping these just in case you want to use them for socials
 
 const Footer = () => {

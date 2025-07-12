@@ -1,8 +1,6 @@
 import React from 'react';
 import './Services.css';
 
-// No need to import images directly from public folder
-// If images are in the public folder, they are accessed directly via their path
 
 const services = [
   {

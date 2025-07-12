@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Menu from '../components/Menu';
-import About from '../components/About';
+import Asection from '../components/Asection';
 import Services from '../components/Services';
 import Delivery from '../components/Delivery';
 import Testimonials from '../components/Testimonials';
@@ -14,7 +14,7 @@ function Home() {
       <Navbar />
       <Hero/>
       <Menu/>
-      <About/>
+      <Asection/>
      <Services/>
   <Delivery/>
   <Testimonials/>
