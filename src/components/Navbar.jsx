@@ -1,9 +1,12 @@
 import React  from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
-    
+  const navigate = useNavigate();
+    const handleBookClick = () => {
+    navigate('/book');
+  };
   return (
     <header className="navbar">
       <div className="navbar-container">
@@ -21,7 +24,7 @@ const Navbar = () => {
           </ul>
         </nav>
 
-        <button className="book-button">Book A Table</button>
+        <button className="book-button"onClick={handleBookClick} >Book A Table</button>
       </div>
     </header>
   );
