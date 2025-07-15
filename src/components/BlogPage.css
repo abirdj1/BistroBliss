@@ -1,0 +1,25 @@
+/* src/components/BlogPage.css */
+.blog-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.blog-page h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.blog-page p {
+ color: #666;
+  margin-bottom: 25px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
