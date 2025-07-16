@@ -7,6 +7,7 @@ import MenuP from './pages/MenuP';
 import Book from './pages/Book';
 import Contact from './pages/Contact';
 import Blogcms from './pages/Blogcms';
+import Blogdetaills from './pages/Blogdetaills';
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/book" element={<Book />} />
         <Route path="/pages" element={<Blogcms />} />
          <Route path="/contact" element={<Contact/>} />
+         <Route path="/Blogdetaills" element={<Blogdetaills />} />
       </Routes>
     </Router>
   );

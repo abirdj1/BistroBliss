@@ -1,0 +1,58 @@
+/* src/components/ArticlePage.css */
+.article-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+.article-page h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000;
+}
+.article-page img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.article-page section {
+  margin-bottom: 30px;
+  
+}
+.article-page h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #444;
+}
+.article-page p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.article-page ol {
+  padding-left: 20px;
+}
+.article-page ol li {
+  margin-bottom: 10px;
+}
+.article-page .read-more {
+  text-align: center;
+  margin-top: 40px;
+}
+.article-page .read-more h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #666;
+}
+.article-page .read-more p {
+  color: #777;
+  margin-bottom: 20px;
+}
+.article-page .cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+ 
+}
