@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <section className="hero-section">
       <div className="hero-content">
-        <h1>Best food for your taste</h1>
+        <h1>Best food for<br/> your taste</h1>
         <p>
           Discover delectable cuisine and unforgettable moments
-          in our welcoming, culinary haven.
+          <br/> in our welcoming, culinary haven.
         </p>
         <div className="hero-buttons">
           <button className="btn-red">Book A Table</button>

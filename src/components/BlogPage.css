@@ -5,10 +5,11 @@
   margin: 0 auto;
 }
 .blog-page h1 {
-  font-size: 2.8rem;
-  font-weight: 600;
+  font-size: 4rem;
+  font-weight: 500;
   margin-bottom: 10px;
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 .blog-page p {
  color: #666;

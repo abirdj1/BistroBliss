@@ -58,7 +58,7 @@
   color: #222;
   padding: 6px 16px;
   border-radius: 30px;
-  font-weight: 600;
+  font-weight: 545;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -66,5 +66,5 @@
 .book-button:hover {
   background-color:  #AD343E; /* Rouge vif */
   color: white;
-  border-color: #962d35;
+  border-color: #AD343E;
 }

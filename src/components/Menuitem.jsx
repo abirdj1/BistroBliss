@@ -25,7 +25,7 @@ const Menu = () => {
     <section className="menu-section">
       <h1 className="menu-title">Our Menu</h1>
       <p className="menu-subtitle">
-        We consider all the drivers of change gives you the components you need to change to create a truly happens.
+        We consider all the drivers of change gives you the components<br/> you need to change to create a truly happens.
       </p>
 
       <div className="menu-categories">

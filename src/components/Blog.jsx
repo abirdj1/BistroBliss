@@ -3,38 +3,34 @@ import './Blog.css';
 
 const articles = [
   {
-    title: "Mastering the Perfect Burger at Home",
+    title:" The secret tips & tricks to prepare a perfect burger & pizza for our customers",
     image: "/card4.png",
     date: "July 10, 2025",
     excerpt: "Lorem ipsum dolor sit amet consectetur of a adipiscing elitilmim semper adipiscing massa gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas.",
     link: "/article/perfer"
   },
   {
-    title: "Air Fryer French Fries Recipe",
+    title: "How to prepare the perfect french fries in an air fryer",
     image: "/card5.png",
     date: "July 9, 2025",
-    excerpt: "Learn how to make crispy fries using an air fryer with this easy recipe.",
     link: "/article/airfryer-fries"
   },
   {
-    title: "Chicken Tenders Done Right",
+    title: "How to prepare delicious chicken tenders",
     image: "/card6.png",
     date: "July 8, 2025",
-    excerpt: "A guide to preparing tender, golden chicken tenders everyone will love.",
     link: "/article/chicken-tenders"
   },
   {
-    title: "Top 7 Cheesecake Recipes to Try",
+    title: "7 delicious cheesecake recipes you can prepare",
     image: "/card7.png",
     date: "July 7, 2025",
-    excerpt: "Explore a variety of delicious cheesecake recipes for any occasion.",
     link: "/article/cheesecake-recipes"
   },
   {
-    title: "Best Pizza Spots in Your City",
+    title: "5 great pizza restaurants you should visit this city",
     image: "card8.png",
     date: "July 6, 2025",
-    excerpt: "Check out the top pizza restaurants for an authentic dining experience.",
     link: "/article/best-pizza-spots"
   }
 ];

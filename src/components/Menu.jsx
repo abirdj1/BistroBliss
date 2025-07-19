@@ -34,7 +34,7 @@ const menuItems = [
 const Menu = () => {
   return (
     <section className="menu-section" id="menu">
-      <h2 className="menu-title">Browse Our Menu</h2>
+      <h3 className="menu-title">Browse Our Menu</h3>
       <div className="menu-grid">
         {menuItems.map((item, index) => (
           <div key={index} className="menu-card">

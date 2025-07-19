@@ -5,14 +5,15 @@
 }
 
 .menu-title {
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 6rem;
+  font-weight: 585;
   margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
 }
 
 .menu-subtitle {
   color: #555;
-  font-size: 15px;
+  font-size: 18px;
   max-width: 600px;
   margin: auto;
   margin-bottom: 30px;
@@ -28,9 +29,10 @@
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
+ 
 }
 
 .category-button:hover {
@@ -75,7 +77,7 @@
 }
 
 .menu-price {
-  color: #962d35;
+color: #962d35;
   font-weight: bold;
   font-size: 16px;
   margin: 5px 0;

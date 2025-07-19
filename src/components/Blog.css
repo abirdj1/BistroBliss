@@ -18,7 +18,7 @@
   font-size: 48px;
   color: #1a1a1a;
   margin: 0;
-  font-weight: 700;
+  font-weight: 580;
   letter-spacing: 1px;
 }
 
@@ -84,7 +84,7 @@
 
 .featured-content .blog-date {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #757575;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -93,7 +93,7 @@
 .featured-content .blog-heading {
   font-family: 'Roboto', sans-serif;
   font-size: 26px; /* Increased for prominence */
-  font-weight: 700;
+  font-weight: 520;
   color: #1e1e1e;
   margin-bottom: 12px;
   line-height: 1.4;
@@ -162,7 +162,7 @@
 .blog-heading {
   font-family: 'Roboto', sans-serif;
   font-size: 16px; /* Reduced for small cards */
-  font-weight: 700;
+  font-weight: 520;
   color: #1e1e1e;
   margin-bottom: 8px;
   line-height: 1.4;

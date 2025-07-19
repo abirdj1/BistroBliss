@@ -75,15 +75,15 @@
 }
 
 .service-card-title {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 550;
   color: #333;
   margin-bottom: 10px;
-  font-family: 'Playfair Display', serif;
+  
 }
 
 .service-card-description {
-  font-size: 14px;
+  font-size: 16px;
   color: #666;
   line-height: 1.6;
   margin-bottom: 0;
@@ -99,6 +99,7 @@
         margin-left: 0;
         margin-right: 0;
         text-align: left;
+        
     }
     .services-grid {
         max-width: none;
@@ -110,12 +111,14 @@
     }
 }
 
-@media (max-width: 768px) {
+
   .services-title {
-    font-size: 32px;
+    font-size: 38px;
     margin-bottom: 40px;
+    font-weight: 595;
+    
   }
-}
+
 
 @media (max-width: 480px) {
   .services-section {

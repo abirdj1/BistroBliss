@@ -1,4 +1,11 @@
 /* src/components/ArticleCard.css */
+/* src/components/ArticleCard.css */
+.article-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
 .article-card {
   border-radius: 10px;
   overflow: hidden;
