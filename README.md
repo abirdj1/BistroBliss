@@ -92,5 +92,5 @@ Contact	Formulaire de contact
 Footer	Liens utiles, réseaux sociaux et infos
 
 
-
+Vous pouvez visiter le projet Bistro Bliss ici : [Bistro Bliss en ligne](https://69820df6fc75c31446fc0604--bistroblis.netlify.app/)
 
