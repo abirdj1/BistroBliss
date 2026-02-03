@@ -4,6 +4,9 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 [![CSS](https://img.shields.io/badge/CSS-3-blue)](https://developer.mozilla.org/fr/docs/Web/CSS)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+<img width="418" height="603" alt="image" src="https://github.com/user-attachments/assets/66dcd793-fdd8-4db8-b37f-df657081825a" />
+<img width="835" height="458" alt="image" src="https://github.com/user-attachments/assets/4d435b18-7337-4cdd-a8c6-bb9ed0ab7df0" />
+<img width="939" height="474" alt="image" src="https://github.com/user-attachments/assets/5d62659e-0762-4cb5-9f64-253342d29bef" />
 
 Frontend de la plateforme **Bistro Bliss**, un site complet pour restaurants, développé avec **React**.  
 Cette application gère l’affichage du menu, la réservation, les promotions, les témoignages et le blog.
@@ -89,7 +92,5 @@ Contact	Formulaire de contact
 Footer	Liens utiles, réseaux sociaux et infos
 
 
-<img width="418" height="603" alt="image" src="https://github.com/user-attachments/assets/66dcd793-fdd8-4db8-b37f-df657081825a" />
-<img width="835" height="458" alt="image" src="https://github.com/user-attachments/assets/4d435b18-7337-4cdd-a8c6-bb9ed0ab7df0" />
-<img width="939" height="474" alt="image" src="https://github.com/user-attachments/assets/5d62659e-0762-4cb5-9f64-253342d29bef" />
+
 
